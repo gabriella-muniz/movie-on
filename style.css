@@ -141,6 +141,15 @@ h2{
     }
 }
 
+@media only screen and (max-width: 800px) {
+    .filmes ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 60px;
+        justify-items: center;   
+    }
+}
+
 @media only screen and (max-width: 768px) {
 
 h1{
@@ -168,3 +177,4 @@ li img{
 }
 
 }
+
